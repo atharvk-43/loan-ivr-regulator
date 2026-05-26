@@ -1,4 +1,4 @@
-# 📞 IVR Regulator — AI-Powered Loan Collection & Reminder SaaS
+#  IVR Regulator — AI-Powered Loan Collection & Reminder SaaS
 
 **IVR Regulator** is a modern, premium AI-powered outbound IVR (Interactive Voice Response) SaaS platform designed for loan reminders, EMI recovery, and borrower communication. 
 
@@ -6,7 +6,7 @@ telephony testing can be complex and expensive. **IVR Regulator** resolves this 
 
 ---
 
-## 🌟 Key Features
+##  Key Features
 
 * **Sleek Dark Mode Dashboard**: Rich glassmorphism aesthetics, live KPI metrics (recovery rates, promised payments, active dialer states), and historical metrics charts using Recharts.
 * **In-Browser Call Simulator Dialer**:
@@ -19,7 +19,7 @@ telephony testing can be complex and expensive. **IVR Regulator** resolves this 
 
 ---
 
-## 📂 Symmetrical Dialer Conversation Flow
+##  Symmetrical Dialer Conversation Flow
 
 To maximize reliability across all browsers and environments, the simulator implements a symmetrical **3-question keypad DTMF (1/2)** dialogue flow.
 
@@ -43,14 +43,14 @@ graph TD
 
 ---
 
-## 🛠️ Technology Stack
+##  Technology Stack
 
 * **Backend**: Node.js, Express, MongoDB (Mongoose), Twilio SDK, OpenAI SDK (configured for Gemini compatibility).
 * **Frontend**: React (Vite), Tailwind CSS, React Icons (Heroicons 2), Recharts, Axios, Web Speech API (Synthesis & Recognition).
 
 ---
 
-## 🚀 Setup & Installation Instructions
+##  Setup & Installation Instructions
 
 ### Prerequisites
 * [Node.js](https://nodejs.org/) (v16.0.0 or higher)
@@ -68,30 +68,6 @@ npm install
 
 Create a `.env` file in the `backend/` directory:
 ```env
-# --- Server ---
-PORT=5000
-NODE_ENV=development
-
-# --- MongoDB Database ---
-MONGO_URI=mongodb+srv://<username>:<password>@cluster0.ysiqkiz.mongodb.net/?appName=Cluster0
-
-# --- JWT ---
-JWT_SECRET=super_secret_local_dev_token_key_123
-JWT_EXPIRE=30d
-
-# --- Twilio Telephony ---
-TWILIO_PHONE_NUMBER=+15005550006
-TWILIO_ACCOUNT_SID=ACmock_account_sid_1234567890abcdef
-TWILIO_AUTH_TOKEN=mock_auth_token_1234567890abcdef
-
-# --- Google Gemini API (via OpenAI compatible endpoint) ---
-OPENAI_API_KEY=AIzaSyDg7B_SWKXzN3AK7l9O5B3m6BGYFeEhse8
-
-# --- Base URL ---
-BASE_URL=http://localhost:5000
-FRONTEND_URL=http://localhost:5173
-```
-
 Start the backend API dev server:
 ```bash
 npm run dev
@@ -108,21 +84,4 @@ cd ../frontend
 npm install
 ```
 
-Create a `.env` file in the `frontend/` directory:
-```env
-VITE_API_URL=http://localhost:5000/api
-```
-
-Start the frontend Vite dev server:
-```bash
-npm run dev
-```
-
-Open [http://127.0.0.1:5173/](http://127.0.0.1:5173/) in your web browser.
-
----
-
-## 👤 Default Credentials
-To access the pre-seeded borrower database:
-* **Email**: `admin@regulator.com`
-* **Password**: `password123`
+Create a `.env` file in the `frontend/` directory

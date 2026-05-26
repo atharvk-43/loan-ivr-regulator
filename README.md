@@ -85,3 +85,7 @@ npm install
 ```
 
 Create a `.env` file in the `frontend/` directory
+
+###DEMO 
+The Live working of the project can be accessed using the below -:
+https://drive.google.com/file/d/1rwSKL_OJ2Chx1OD0vvv8JTydmqi9TLQS/view?usp=sharing

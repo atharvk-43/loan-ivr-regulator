@@ -86,6 +86,10 @@ npm install
 
 Create a `.env` file in the `frontend/` directory
 
-###DEMO 
+## DEMO 
 The Live working of the project can be accessed using the below -:
 https://drive.google.com/file/d/1rwSKL_OJ2Chx1OD0vvv8JTydmqi9TLQS/view?usp=sharing
+
+## Note
+In this demo, The call is simulated because, the actual APIs of Twilio or other providers which help in IVR calls, were paid or only the US numbers were allowed, 
+In the hidden .env files, the commented gateway for the whole calling has been created, when given a paid access to these APIs, the app could fully funtional like specified, But the demo has a call simulator along with integrated MongoDB and Gemini Free APIs.
